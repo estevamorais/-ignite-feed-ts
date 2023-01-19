@@ -1,0 +1,26 @@
+.header {
+  background-color: var(--gray-800);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 0;
+}
+
+.logo {
+  height: 2rem;
+}
+
+.title {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    height: 2.5rem;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+}
